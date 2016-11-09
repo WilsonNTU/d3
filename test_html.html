@@ -15,9 +15,9 @@ d3.csv("./goog.csv",
 	{
 		var ln = data.length;
 		console.log(data);
-		
-		var maxy = d3.max(data, function(d){ return d.GOOG.Volume; });
-		var lines = d3.line().x(function(d,i){return i*(width/ln);}).y(function(d){return height-d.GOOG.Volume*(height/maxy)});
+		var maxy = d3.max(data, function(d){ return d.Adjusted; });
+		confirm(maxy);
+		var lines = d3.line().x(function(d,i){return i*(width/ln);}).y(function(d){return height - d.Adjusted*(height/maxy)});
 		ctrl.append("path").data([data]).attr("d", lines).attr("stroke", "red").attr("fill", "none");
 	}
 
