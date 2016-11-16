@@ -1,7 +1,7 @@
 function linetest() {
 var width = 1024;
 var height = 768;
-var ctrl = d3.select("body").append("svg").attr("width", width).attr("height", height);
+var ctrl = d3.select("content").append("svg").attr("width", width).attr("height", height);
 d3.csv("https://wilsonntu.github.io/d3/goog.csv", 
 	function(data)
 	{
