@@ -5,7 +5,7 @@ function map_ian(){
     function initialize() {
       map = new google.maps.Map(document.getElementById('map-canvas'), {
         center: new google.maps.LatLng(23.746730958843408, 120.6109398964643),
-        zoom: 7
+        zoom: 10
       });
       var style = [
         {
