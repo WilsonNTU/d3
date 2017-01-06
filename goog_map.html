@@ -23,8 +23,9 @@
         // Initialize the first layer
         var firstLayer = new google.maps.FusionTablesLayer({
           query: {
-            select: 'geometry',
-            from: '196LqydLhOq1Wl9612hNhcGoh4vUmRjTaiFvDhA'
+         	  select: "col5",
+           	  from: "1fprfzjFAUgzMW9H7wMXg0tepl91_LlFCuPgUzvvO",
+      		  where: ""
           },
           map: map,
           suppressInfoWindows: true
@@ -36,8 +37,9 @@
         // Initialize the second layer
         var secondLayer = new google.maps.FusionTablesLayer({
           query: {
-            select: "'Full Address'",
-            from: '1tL67aacGcCyMfAg9PUo_-gp4qm74GDtFiCMtFg'
+             select: "col7",
+        	 from: "14mcQpTQ9N7EH-eN_qW3zfpoUF_yjji7hMmG1Ky8Q",
+        	 where: ""
           },
           map: map,
           suppressInfoWindows: true
