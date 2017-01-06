@@ -1,4 +1,4 @@
-function map_ian.js(){
+function map_ian(){
  var map;
     var layer_0;
     var layer_1;
