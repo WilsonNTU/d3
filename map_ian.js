@@ -4,8 +4,8 @@ function map_ian(){
     var layer_1;
     function initialize() {
       map = new google.maps.Map(document.getElementById('map-canvas'), {
-        center: new google.maps.LatLng(23.73832628058362, 120.69737207031245),
-        zoom: 12
+        center: new google.maps.LatLng(23.599460580163605, 121.13819848632808),
+        zoom: 8
       });
       var style = [
         {
